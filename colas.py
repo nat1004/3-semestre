@@ -21,7 +21,7 @@ cola = []
 SEPARA = ("-" * 20) + "\n" #Se crea variable para separar cada menú, \n es salto de línea
 
 def main():
-  print("1 Insertar cola")
+  print("1 Insertar cola") 
   print("2 Borrar en cola")
   print("3 Listar cola")
   print("4 Salir")
@@ -29,7 +29,7 @@ def main():
   option = input("Elija una opcion: ")
  #Esta opcion permite encolar el numero en la lista
   if str(option)=="1":
-    elemento = input(" Introduzca el numero a encolar: ")
+    elemento= input(" Introduzca el numero a encolar: ")
     cola.append(elemento)
     print(" numero encolado con exito ")
     main()
