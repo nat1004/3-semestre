@@ -1,5 +1,5 @@
 import numpy as np
-"""
+
 lista = [25,12,15,66,12.5]
 vector = np.array(lista)
 print(vector)
@@ -75,12 +75,12 @@ filtro = matriz_ejemplo > 100
 print(filtro)
 print()
 resultado = matriz_ejemplo[filtro]
-print(resultado)"""
+print(resultado)
 
 datos = np.random.randint(1,200, size=(18,))
 print("los datos son: ")
 print(datos)
-"""
+
 minimo = datos.min()
 maximo = datos.max()
 
@@ -98,7 +98,7 @@ desviacion_estandar = datos.std()
 varianza = datos.var()
 
 print(f"\nlos datos poseen una media aritmetica de {media: .4f}, con una varianza de {varianza: .4f} y una desvicion estandar de {desviacion_estandar: .4f}")
-"""
+
 
 media = np.mean(datos)
 desviacion_estandar = np.std(datos)
